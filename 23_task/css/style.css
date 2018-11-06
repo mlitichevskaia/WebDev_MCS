@@ -1,0 +1,79 @@
+@import url(reset.css);
+
+.page {
+  font-family: sans-serif;
+  
+}
+
+.header {
+height: 50px;
+width: 100%;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.header-container {
+position: static;
+background-color: black;
+}
+
+
+h2 {
+	color: blue;
+	font-size: 20px;
+	margin: 10px;
+	margin-left: 0;
+}
+
+.colums {
+	position: relative;
+	background-color: white
+	color: black;
+
+}
+
+
+.serviceOne {
+	width: 250px;
+	border: 3px solid black;
+	border-radius: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 10px;
+	margin: 15px;
+}
+
+
+.serviceTwo {
+	width: 250px;
+	border: 3px solid black;
+	border-radius: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 10px;
+	margin: 70px 10px;
+	top: 50px;
+	left: 300px;
+	
+}
+.serviceThree {
+	width: 250px;
+	border: 3px solid black;
+	border-radius: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 10px;
+	margin: 20px;
+	
+
+}
+
+footer {
+height: 50px;
+width: 100%;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+}
