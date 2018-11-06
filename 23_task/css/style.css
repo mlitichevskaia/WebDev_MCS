@@ -14,10 +14,20 @@ width: 100%;
   position: fixed;
 }
 
+
+.header, footer {
+height: 50px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
 .header-container {
 position: static;
 background-color: black;
 }
+
 
 
 h2 {
@@ -26,6 +36,17 @@ h2 {
 	margin: 10px;
 	margin-left: 0;
 }
+
+
+.header{
+height: 50px;
+  background-color: black;
+  padding: 15px;
+  box-sizing: border-box;
+  position: fixed;
+}
+} 
+
 
 .colums {
 	position: relative;
@@ -37,17 +58,23 @@ h2 {
 
 .serviceOne {
 	width: 250px;
+
+	height: 350px;
 	border: 3px solid black;
 	border-radius: 30px;
 	box-sizing: border-box;
 	display: inline-block;
 	padding: 10px;
 	margin: 15px;
+
+	margin: 20px;
 }
 
 
 .serviceTwo {
 	width: 250px;
+
+	height: 350px;
 	border: 3px solid black;
 	border-radius: 30px;
 	box-sizing: border-box;
@@ -60,6 +87,8 @@ h2 {
 }
 .serviceThree {
 	width: 250px;
+
+	height: 350px;
 	border: 3px solid black;
 	border-radius: 30px;
 	box-sizing: border-box;
@@ -77,3 +106,4 @@ width: 100%;
   color: white;
   box-sizing: border-box;
 }
+
